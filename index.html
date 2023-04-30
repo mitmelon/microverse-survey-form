@@ -15,3 +15,30 @@
                 Microverse trial challenge survey form using bootstrap
             </p>
         </div>
+        <div class="card">
+            <div class="card-body">
+                <form id="survey-form" action="#" method="post" autocomplete="off">
+                    <div class="mb-3">
+                        <label for="name-label" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name-label" name="name"
+                            placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email-label" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email-label" name="email"
+                            placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="number-label" class="form-label">Age</label>
+                        <input type="number" class="form-control" id="number-label" name="number" min="1" max="99"
+                            placeholder="Enter your age">
+                    </div>
+                    <div class="mb-3">
+                        <label for="gender-label" class="form-label">Gender</label>
+                        <select id="dropdown" name="gender" class="form-control" required>
+                            <option disabled selected value>Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
